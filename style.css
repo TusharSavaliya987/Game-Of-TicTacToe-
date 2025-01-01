@@ -30,13 +30,21 @@ body {
 .box {
     height: 18vmin;
     width: 18vmin;
-    background-color: #f7f7f7;
+    background-color: #ffffc7;
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
     border-radius: 1rem;
     font-size: 8vmin;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: #b0413e;
+}
+
+#reset-btn {
+    margin-top: 2vmin;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
     cursor: pointer;
 }

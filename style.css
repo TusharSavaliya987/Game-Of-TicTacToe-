@@ -9,6 +9,7 @@ body {
     text-align: center;
 }
 
+
 .container {
     display: flex;
     justify-content: center;
@@ -47,4 +48,31 @@ body {
     border: none;
     border-radius: 1rem;
     cursor: pointer;
+}
+
+#new-btn {
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#msg {
+    font-size: 5vmin;
+    color: #ffffc7;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+}
+
+.msg-container {
+    height: 10vmin;
+}
+
+.hide {
+    display: none;
 }
